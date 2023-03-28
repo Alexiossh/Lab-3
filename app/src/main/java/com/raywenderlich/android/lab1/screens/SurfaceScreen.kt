@@ -1,15 +1,17 @@
 package com.raywenderlich.android.lab1.screens
 
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
 import com.raywenderlich.android.lab1.router.BackButtonHandler
 import com.raywenderlich.android.lab1.router.FundamentalsRouter
 import com.raywenderlich.android.lab1.router.Screen
-import java.lang.reflect.Modifier
+
 
 @Composable
-fun SurfaceScreen(modifier: Modifier=Modifier()){
+fun SurfaceScreen(modifier: Modifier= Modifier){
     Box(modifier = modifier.fillMaxSize()){
         MySurface(modifier=modifier.align(Alignment.Center))
     }
@@ -19,15 +21,8 @@ fun SurfaceScreen(modifier: Modifier=Modifier()){
     }
 }
 
-public fun Any.fillMaxSize(): androidx.compose.ui.Modifier {
-    TODO("Not yet implemented")
-}
-
-private fun Any.align(center: Any): Modifier {
-    TODO("Not yet implemented")
-}
 
 @Composable
 fun MySurface(modifier: Modifier){
-
+//TODO
 }

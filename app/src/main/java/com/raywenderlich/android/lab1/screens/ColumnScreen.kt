@@ -13,6 +13,6 @@ fun ColumnScreen(){
 
 @Composable
 fun MyColumn() {
-    TODO("Not yet implemented")
+    //TODO
 }
 
