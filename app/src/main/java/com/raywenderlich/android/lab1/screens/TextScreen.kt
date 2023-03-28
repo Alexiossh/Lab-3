@@ -39,7 +39,7 @@ fun MyText() {
     Text(
         text = stringResource(id = R.string.set_text),
         fontStyle= FontStyle.Italic,
-    color= colorResource(id = R.color.purple_700),
+    color= colorResource(id = R.color.purple_200),
     fontSize = 30.sp,
     fontWeight = FontWeight.Bold)
 }
