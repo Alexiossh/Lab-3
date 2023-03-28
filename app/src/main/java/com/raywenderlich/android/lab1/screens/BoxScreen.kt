@@ -15,6 +15,6 @@ fun BoxScreen(){
 }
 
 @Composable
-fun MyBox(){
+fun MyBox(modifier: Modifier=Modifier()){
     //TODO write your code here
 }

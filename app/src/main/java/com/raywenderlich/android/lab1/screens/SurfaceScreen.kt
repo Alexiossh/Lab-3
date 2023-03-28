@@ -9,7 +9,7 @@ import com.raywenderlich.android.lab1.router.Screen
 import java.lang.reflect.Modifier
 
 @Composable
-fun SurfaceScreen(modifier: Modifier){
+fun SurfaceScreen(modifier: Modifier=Modifier()){
     Box(modifier = modifier.fillMaxSize()){
         MySurface(modifier=modifier.align(Alignment.Center))
     }
@@ -19,7 +19,7 @@ fun SurfaceScreen(modifier: Modifier){
     }
 }
 
-private fun Any.fillMaxSize(): androidx.compose.ui.Modifier {
+public fun Any.fillMaxSize(): androidx.compose.ui.Modifier {
     TODO("Not yet implemented")
 }
 
