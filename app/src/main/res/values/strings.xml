@@ -12,5 +12,8 @@
     <string name="title_alertDialog">Внимание</string>
     <string name="alertDialog_about">Это диалоговое окно</string>
     <string name="insert_email">Email</string>
+    <string name="first" />
+    <string name="second" />
+    <string name="third" />
 
 </resources>
