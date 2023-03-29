@@ -13,6 +13,7 @@
     <string name="alertDialog_about">Это диалоговое окно</string>
     <string name="ROW">ROW</string>
     <string name="Box">BOX</string>
+    <string name="Surface">SURFACE</string>
     <string name="Column">Column</string>
     <string name="insert_email">Email</string>
     <string name="first">Первый</string>
