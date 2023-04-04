@@ -30,7 +30,7 @@ fun MyScrollingScreen(modifier: Modifier) {
     Column(modifier = modifier.verticalScroll(rememberScrollState())) {
         BookImage(R.drawable.advanced_architecture_android,R.string.YAA)
         BookImage(R.drawable.kotlin_aprentice, R.string.Kot)
-        BookImage(R.drawable.kotlin_corountines,R.string.KOR)
+        BookImage(R.drawable.kotlin_coroutines,R.string.KOR)
     }
 }
 

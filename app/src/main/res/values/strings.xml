@@ -17,16 +17,17 @@
     <string name="Scaffold">SCAFFOLD</string>
     <string name="Column">Column</string>
     <string name="insert_email">Email</string>
-    <string name="first">Первый</string>
-    <string name="second">Второй</string>
-    <string name="third">Третий</string>
+    <string name="first">ВЛадимер</string>
+    <string name="second">что</string>
+    <string name="third">лох</string>
     <string name="menu">Меню</string>
     <string name="Compose">MyComposeApp</string>
     <string name="android" />
     <string name="kotlin" />
     <string name="swift" />
-    <string name="ios" />
+
     <string name="YAA">АРХИТЕКУТРА</string>
     <string name="Kot">Изучение котлин :)</string>
-    <string name="KOR">что</string>
+    <string name="KOR">ЦЫГан Лошара</string>
+    <string name="ios" />
 </resources>
