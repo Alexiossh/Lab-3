@@ -1,6 +1,9 @@
 package com.raywenderlich.android.lab1.app
 
 import ColumnScreen
+import GridScreen
+import ListScreen
+import ScrollingScreen
 import androidx.compose.animation.Crossfade
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -25,6 +28,9 @@ fun FundamentalsApp() {
                 is Screen.Box -> BoxScreen()
                 is Screen.Surface -> SurfaceScreen()
                 is Screen.Scaffold -> ScaffoldScreen()
+                is Screen.Scrolling -> ScrollingScreen()
+                is Screen.List -> ListScreen()
+                is Screen.Grid->GridScreen()
             }
         }
     }

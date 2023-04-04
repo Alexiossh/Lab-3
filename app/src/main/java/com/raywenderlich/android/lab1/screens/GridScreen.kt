@@ -1,3 +1,4 @@
+import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.*
 import androidx.compose.runtime.Composable
@@ -13,6 +14,7 @@ private val items = listOf(
     Icons.Filled.Build,
     Icons.Filled.Delete,
     Icons.Filled.Home,
+    Icons.Filled.Close,
     Icons.Filled.ThumbUp,
     Icons.Filled.Build,
     Icons.Filled.ThumbUp,
@@ -32,6 +34,11 @@ fun GridView(columnCount: Int) {
 
 @Composable
 fun RowItem(rowItems:List<IconResource>){
+
+}
+
+@Composable
+fun RowScope.GridIcon(iconResource: IconResource){
 
 }
 
