@@ -25,9 +25,10 @@
     <string name="android" />
     <string name="kotlin" />
     <string name="swift" />
-
+    <string name="jjj">Обложки книг</string>
     <string name="YAA">АРХИТЕКУТРА</string>
     <string name="Kot">Изучение котлин :)</string>
     <string name="KOR">ЦЫГан Лошара</string>
     <string name="ios" />
+
 </resources>
