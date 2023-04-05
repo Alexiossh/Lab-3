@@ -37,7 +37,7 @@ fun NavigationScreen() {
             NavigationButton(stringResource(id =R.string.ROW), Screen.Row)
             NavigationButton(stringResource(id =R.string.Column), Screen.Column)
             NavigationButton(stringResource(id =R.string.KOR), Screen.Scrolling)
-
+            NavigationButton(stringResource(id =R.string.third), Screen.List)
         }
     }
 }
