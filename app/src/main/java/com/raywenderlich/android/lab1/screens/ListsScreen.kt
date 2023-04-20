@@ -74,6 +74,7 @@ fun MyList() {
 }
 @Composable
 fun ListItem(bookCategory: BookCategory, modifier: Modifier=Modifier){
+
 Column(modifier=Modifier.padding(8.dp)){
     Text(
         text= stringResource(bookCategory.categoryResourceId),
@@ -99,6 +100,28 @@ fun BookImage(imageResource: Int) {
         painter= painterResource(id = imageResource),
         contentScale= ContentScale.Fit,
         contentDescription= stringResource(id = R.string.OBl)
+
+Column(modifier=Modifier.pudding(8.dp)){
+    Text(
+        text=stringResource(bookCategory.categoryResourceId),
+        fontSize=22.sp,
+        fontWeight=FontWeight.Bold,
+        color=colorResource(id=R.color.colorPrimary)
+    )
+    Spacer(modifier=modifier.height(8.dp))
+    LazyRow{
+        items(bookCategory.bookImageResource){items->BookImage(items)}
+    }
+}
+}
+
+@Composable
+fun BookImage(imageResource: int){
+    Image(
+        modifier=Modifier.size(170.dp,200.dp),
+        painter=paintResource(id=imageResource),
+        contentScale=ContentScale.Fit,
+        contentDescription=stringResource(R.string.jjj)
     )
 }
 
